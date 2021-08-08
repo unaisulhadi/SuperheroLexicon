@@ -17,7 +17,7 @@ data class Hero(
     @SerializedName("images")
     val images: Images?,
     @SerializedName("name")
-    val name: String?,
+    val name: String,
     @SerializedName("powerstats")
     val powerstats: Powerstats?,
     @SerializedName("slug")
