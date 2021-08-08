@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Superhero Lexicon</string>
+    <string name="title_activity_heroes">HeroesActivity</string>
+    <string name="title_activity_hero_details">HeroDetailsActivity</string>
+</resources>
