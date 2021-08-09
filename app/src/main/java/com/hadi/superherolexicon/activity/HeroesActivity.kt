@@ -2,6 +2,7 @@ package com.hadi.superherolexicon.activity
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -37,6 +38,13 @@ class HeroesActivity : ComponentActivity() {
                         HeroListViewState.Loading -> Text(text = "Loading")
                         is HeroListViewState.Error -> Text(text = "Error found: ${result.exception}")
                         is HeroListViewState.Success -> {
+
+                            val data = result.data.distinctBy { it.biography?.publisher }
+                            data.forEach { hero ->
+                                Log.d("DISTINCT_PUBLISHERS", hero.biography?.publisher ?: "-")
+                            }
+
+
                             HeroListView(
                                 heroList = result.data,
                                 viewModel = viewModel

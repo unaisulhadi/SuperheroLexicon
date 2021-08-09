@@ -48,7 +48,6 @@ fun HeroListView(heroList: List<Hero>, viewModel: HeroViewModel, onClick: (Hero)
         modifier = Modifier.fillMaxWidth()
     ) {
 
-
         Text(
             text = "Explore",
             style = MaterialTheme.typography.h5,
@@ -57,7 +56,6 @@ fun HeroListView(heroList: List<Hero>, viewModel: HeroViewModel, onClick: (Hero)
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = 12.dp, end = 12.dp, top = 24.dp)
-
         )
 
         Box(
@@ -65,11 +63,7 @@ fun HeroListView(heroList: List<Hero>, viewModel: HeroViewModel, onClick: (Hero)
                 .fillMaxWidth()
                 .height(60.dp)
                 .padding(start = 12.dp, end = 12.dp, top = 12.dp)
-                .border(
-                    width = 2.dp,
-                    color = accentColor,
-                    shape = RoundedCornerShape(6.dp)
-                )
+                .border(width = 2.dp, color = accentColor, shape = RoundedCornerShape(6.dp))
         ) {
 
             Row(

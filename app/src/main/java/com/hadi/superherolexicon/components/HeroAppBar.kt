@@ -24,7 +24,7 @@ fun HeroAppBar(hero: Hero) {
 
     Box(
         modifier = Modifier
-            .height(350.dp)
+            .height(370.dp)
     ) {
 
 
@@ -37,7 +37,7 @@ fun HeroAppBar(hero: Hero) {
             ),
             modifier = Modifier
                 .fillMaxWidth()
-                .height(350.dp),
+                .height(370.dp),
             contentDescription = null,
             contentScale = ContentScale.Crop
         )
