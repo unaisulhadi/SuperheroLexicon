@@ -15,7 +15,7 @@ Simple and Pretty Superhero App developed using Jetpack Compose UI
 
 ## Download latest app apk from below 👇
 
-[![Hero](https://img.shields.io/badge/Superhero-APK-black.svg?style=for-the-badge&logo=android)](https://github.com/Spikeysanju/Wiggles/releases/download/v1.0.0-alpha01/Wiggles.apk)
+[![Hero](https://img.shields.io/badge/Superhero-APK-black.svg?style=for-the-badge&logo=android)](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/release/Superhero%20Lexicon%20v1.0.apk)
 
 <br />
 
