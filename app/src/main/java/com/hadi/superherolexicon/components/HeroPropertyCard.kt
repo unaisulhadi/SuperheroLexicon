@@ -65,7 +65,7 @@ fun HeroPropertyCard(
 
                 Text(
                     modifier = Modifier
-                        .padding(top = 8.dp),
+                        .padding(top = 8.dp, end = 4.dp),
                     text = propertyName,
                     color = Color.Black,
                     style = MaterialTheme.typography.subtitle2
@@ -73,7 +73,7 @@ fun HeroPropertyCard(
 
                 Text(
                     modifier = Modifier
-                        .padding(bottom = 8.dp, top = 4.dp),
+                        .padding(bottom = 8.dp, top = 4.dp, end = 4.dp),
                     text = propertyValue,
                     color = Color.Black,
                     style = MaterialTheme.typography.subtitle1
