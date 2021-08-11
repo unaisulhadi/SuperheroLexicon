@@ -16,7 +16,7 @@ Simple and Pretty Superhero App developed using Jetpack Compose UI
 <br />
 
 ## Preview ▶
-![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/preview_1.gif?raw=true)
+![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/preview_3.gif?raw=true)
 
 ## Download APK here 👇
 
