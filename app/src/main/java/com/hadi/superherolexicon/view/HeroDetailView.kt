@@ -225,7 +225,7 @@ fun HeroDetailView(hero: Hero) {
                     .padding(end = 4.dp),
                 propertyName = "Eye Color",
                 propertyValue = hero.appearance?.eyeColor ?: "-",
-                icon = R.drawable.ic_height_2
+                icon = R.drawable.ic_eye
             )
 
             HeroPropertyCard(
@@ -234,7 +234,7 @@ fun HeroDetailView(hero: Hero) {
                     .padding(start = 4.dp),
                 propertyName = "Hair Color",
                 propertyValue = hero.appearance?.hairColor ?: "-",
-                icon = R.drawable.ic_weight
+                icon = R.drawable.ic_hair
             )
         }
 
