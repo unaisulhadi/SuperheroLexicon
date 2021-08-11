@@ -1,4 +1,4 @@
-![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/git_cover_03.jpg?raw=true)
+![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/git_cover_3.jpg?raw=true)
 
 
 # Superhero Lexicon 🦹‍♂️
