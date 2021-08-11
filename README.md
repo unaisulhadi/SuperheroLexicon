@@ -1,4 +1,4 @@
-![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/git%20over%203.jpg?raw=true)
+![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/git_cover_03.jpg?raw=true)
 
 
 # Superhero Lexicon 🦹‍♂️
@@ -12,6 +12,11 @@ Simple and Pretty Superhero App developed using Jetpack Compose UI
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
 
 <br />
+
+<br />
+
+## Preview ▶
+![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/preview_1.gif?raw=true)
 
 ## Download APK here 👇
 
