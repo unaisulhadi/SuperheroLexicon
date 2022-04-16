@@ -29,6 +29,9 @@ Simple and Pretty Superhero App developed using Jetpack Compose UI
 Just clone this repo and open in Android Studio Arctic Fox 2020.3.1 or Above
 <br />
 
+## Flutter Version
+If you are looking for Flutter version of this project, <a href="https://github.com/unaisulhadi/SuperheroLexicon-Flutter">Get it here </a>
+
 ## 🍰  Contribute  
 
 Feel free to fork this project, to optimise the code or to add new features. 
