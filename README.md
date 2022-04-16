@@ -1,31 +1,22 @@
+<h1 align="center">Superhero Lexicon 🦹‍♂️</h1>
+<h3 align="center">Simple and Pretty Superhero App developed using Jetpack Compose UI</h3>
+<br/>
+
 ![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/git_cover_3.jpg?raw=true)
 
-
-# Superhero Lexicon 🦹‍♂️
-Simple and Pretty Superhero App developed using Jetpack Compose UI
-
-<br />
 
 ## Technologies Used 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose is Android’s modern toolkit for building native UI.
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
 
-<br />
-
-<br />
-
 ## Preview ▶
 ![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/preview_3.gif?raw=true)
 
 ## Download APK here 👇
-
 [![Hero](https://img.shields.io/badge/Superhero-APK-black.svg?style=for-the-badge&logo=android)](https://github.com/unaisulhadi/SuperheroLexicon/raw/master/release/Superhero%20Lexicon%20v1.0.apk)
 
-<br />
-
 ## ⌨️ Usage
-
 Just clone this repo and open in Android Studio Arctic Fox 2020.3.1 or Above
 <br />
 
@@ -33,16 +24,13 @@ Just clone this repo and open in Android Studio Arctic Fox 2020.3.1 or Above
 If you are looking for Flutter version of this project, <a href="https://github.com/unaisulhadi/SuperheroLexicon-Flutter">Get it here </a>
 
 ## 🍰  Contribute  
-
 Feel free to fork this project, to optimise the code or to add new features. 
 <br />
 <br />
 
 ## ✍️ Author
-
 * <b>Unaisul Hadi</b>
 * Email: unaisulhadi@gmail.com
-
 <br />
 
 ## 📝 License
