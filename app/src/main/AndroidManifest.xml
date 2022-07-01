@@ -14,23 +14,28 @@
         android:theme="@style/Theme.SuperheroLexicon"
         tools:ignore="LockedOrientationActivity">
         <activity
-            android:name="com.hadi.superherolexicon.activity.HeroDetailsActivity"
+            android:name=".activity.SplashActivity"
             android:exported="true"
-            android:label="@string/title_activity_hero_details"
-            android:theme="@style/Theme.SuperheroLexicon.NoActionBar" />
-        <activity
-            android:name="com.hadi.superherolexicon.activity.HeroesActivity"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.SuperheroLexicon.NoActionBar">
-
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.SuperheroLexicon">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.HeroDetailsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_hero_details"
+            android:theme="@style/Theme.SuperheroLexicon.NoActionBar" />
+        <activity
+            android:name=".activity.HeroesActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SuperheroLexicon.NoActionBar">
 
+        </activity>
     </application>
 
 </manifest>

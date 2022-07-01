@@ -55,14 +55,14 @@ fun HeroListView(heroList: List<Hero>, viewModel: HeroViewModel, onClick: (Hero)
             fontWeight = FontWeight.Bold,
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(start = 12.dp, end = 12.dp, top = 24.dp)
+                .padding(start = 12.dp, end = 12.dp, top = 36.dp)
         )
 
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(60.dp)
-                .padding(start = 12.dp, end = 12.dp, top = 12.dp)
+                .height(70.dp)
+                .padding(start = 12.dp, end = 12.dp, top = 16.dp)
                 .border(width = 2.dp, color = accentColor, shape = RoundedCornerShape(6.dp))
         ) {
 

@@ -15,13 +15,19 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import coil.compose.rememberImagePainter
+import coil.request.ImageRequest
+import com.hadi.superherolexicon.R
 import com.hadi.superherolexicon.data.model.Hero
 import com.hadi.superherolexicon.ui.theme.card
 
 @Composable
 fun HeroListItem(hero: Hero, onClick: (Hero) -> Unit) {
+
+    val builder = ImageRequest.Builder(LocalContext.current)
 
     Card(
         modifier = Modifier
@@ -35,20 +41,18 @@ fun HeroListItem(hero: Hero, onClick: (Hero) -> Unit) {
 
         Box(
             modifier = Modifier
-                .height(200.dp)
+                .height(250.dp)
         ) {
 
 
-            Image(
-                painter = rememberImagePainter(
-                    data = hero.images?.md,
-                    builder = {
-                        crossfade(true)
-                    }
-                ),
+            AsyncImage(
+                model = builder.data(data = hero.images?.md)
+                    .placeholder(R.drawable.app_placeholder)
+                    .error(R.drawable.app_placeholder)
+                    .build(),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(200.dp),
+                    .height(250.dp),
                 contentDescription = null,
                 contentScale = ContentScale.Crop
             )

@@ -9,6 +9,7 @@ import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.lifecycle.ViewModelProvider
 import com.hadi.superherolexicon.ui.theme.SuperheroLexiconTheme
@@ -34,16 +35,10 @@ class HeroesActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
 
-                    when (val result = viewModel.heroes.value) {
+                    when (val result = viewModel.heroes.collectAsState().value) {
                         HeroListViewState.Loading -> Text(text = "Loading")
                         is HeroListViewState.Error -> Text(text = "Error found: ${result.exception}")
                         is HeroListViewState.Success -> {
-
-                            val data = result.data.distinctBy { it.biography?.publisher }
-                            data.forEach { hero ->
-                                Log.d("DISTINCT_PUBLISHERS", hero.biography?.publisher ?: "-")
-                            }
-
 
                             HeroListView(
                                 heroList = result.data,
