@@ -16,8 +16,8 @@
         <activity
             android:name=".activity.SplashActivity"
             android:exported="true"
-            android:label="@string/title_activity_splash"
-            android:theme="@style/Theme.SuperheroLexicon">
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SuperheroLexicon.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +27,6 @@
         <activity
             android:name=".activity.HeroDetailsActivity"
             android:exported="true"
-            android:label="@string/title_activity_hero_details"
             android:theme="@style/Theme.SuperheroLexicon.NoActionBar" />
         <activity
             android:name=".activity.HeroesActivity"
