@@ -13,6 +13,9 @@
 ## Preview ▶
 ![App Cover](https://github.com/unaisulhadi/SuperheroLexicon/blob/master/art/preview_3.gif?raw=true)
 
+## Install from Play Store 👇
+[![Hero](https://img.shields.io/badge/Superhero-PLAYSTORE-black.svg?style=for-the-badge&logo=playstore)](https://play.google.com/store/apps/details?id=com.hadi.superherolexicon)
+
 ## Download APK here 👇
 [![Hero](https://img.shields.io/badge/Superhero-APK-black.svg?style=for-the-badge&logo=android)](https://github.com/unaisulhadi/SuperheroLexicon/raw/master/release/Superhero%20Lexicon%20v1.0.apk)
 
