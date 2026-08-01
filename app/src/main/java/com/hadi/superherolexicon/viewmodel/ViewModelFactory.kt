@@ -6,7 +6,8 @@ import androidx.lifecycle.ViewModelProvider
 
 class ViewModelFactory(val application: Application) : ViewModelProvider.Factory {
 
-    override fun <T : ViewModel?> create(modelClass: Class<T>): T =
+    @Suppress("UNCHECKED_CAST")
+    override fun <T : ViewModel> create(modelClass: Class<T>): T =
         when {
             modelClass.isAssignableFrom(HeroViewModel::class.java) -> {
                 HeroViewModel(application) as T

@@ -3,8 +3,9 @@ package com.hadi.superherolexicon.view
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.GridCells
-import androidx.compose.foundation.lazy.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
@@ -127,12 +128,12 @@ fun HeroListView(heroList: List<Hero>, viewModel: HeroViewModel, onClick: (Hero)
 
 
         LazyVerticalGrid(
-            cells = GridCells.Fixed(2),
+            columns = GridCells.Fixed(2),
             modifier = Modifier.padding(top = 12.dp, start = 4.dp, end = 4.dp)
         ) {
             val heroes = heroList.filter { it.name.contains(search, ignoreCase = true) }
-            items(heroes.size) { index ->
-                HeroListItem(heroes[index], onClick)
+            items(heroes) { hero ->
+                HeroListItem(hero, onClick)
             }
         }
     }
